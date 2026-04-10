@@ -1,0 +1,104 @@
+==========================================================
+   UNIVERSITY MEMBER MANAGEMENT SYSTEM - CASE STUDY
+==========================================================
+
+--- EXECUTION OUTPUT ---
+
+Total persons initially: 0
+
+--- Loading Students Data from students.csv ---
+Person Constructor: Alice Johnson created.
+Student Constructor: Details initialized for student Alice Johnson.
+Person Constructor: Bob Smith created.
+Student Constructor: Details initialized for student Bob Smith.
+Person Constructor: Charlie Brown created.
+Student Constructor: Details initialized for student Charlie Brown.
+Person Constructor: Diana Miller created.
+Person Destructor: Diana Miller destroyed.
+
+Exception Caught while processing row: Invalid marks. Marks must be between 0 and 100.
+Person Constructor: Eve Adams created.
+Student Constructor: Details initialized for student Eve Adams.
+
+--- Loading Faculty Data from faculty.csv ---
+Person Constructor: Dr. John Doe created.
+Faculty Constructor: Details initialized for faculty Dr. John Doe.
+Person Constructor: Prof. Jane Smith created.
+Faculty Constructor: Details initialized for faculty Prof. Jane Smith.
+Person Constructor: Dr. Robert Wilson created.
+Faculty Constructor: Details initialized for faculty Dr. Robert Wilson.
+Person Constructor: Dr. Sarah Connor created.
+Faculty Constructor: Details initialized for faculty Dr. Sarah Connor.
+
+Total persons loaded from files: 8
+
+--- Student Details ---
+ID: 101
+Name: Alice Johnson
+Course: Computer Science
+Marks: 85
+
+--- Student Details ---
+ID: 102
+Name: Bob Smith
+Course: Mathematics
+Marks: 92
+
+--- Student Details ---
+ID: 103
+Name: Charlie Brown
+Course: Physics
+Marks: 75
+
+--- Student Details ---
+ID: 105
+Name: Eve Adams
+Course: Biology
+Marks: 88
+
+--- Faculty Details ---
+ID: 201
+Name: Dr. John Doe
+Department: Computer Science
+Salary: Rs.95000.5
+
+--- Faculty Details ---
+ID: 202
+Name: Prof. Jane Smith
+Department: Mathematics
+Salary: Rs.88000
+
+--- Faculty Details ---
+ID: 203
+Name: Dr. Robert Wilson
+Department: Physics
+Salary: Rs.92500.8
+
+--- Faculty Details ---
+ID: 204
+Name: Dr. Sarah Connor
+Department: Robotics
+Salary: Rs.120000
+
+--- Comparing Marks ---
+Bob Smith scored higher than Alice Johnson (92 vs 85).
+
+Deleting objects and cleaning up memory...
+Student Destructor: Cleanup done for student Alice Johnson.
+Person Destructor: Alice Johnson destroyed.
+Student Destructor: Cleanup done for student Bob Smith.
+Person Destructor: Bob Smith destroyed.
+Student Destructor: Cleanup done for student Charlie Brown.
+Person Destructor: Charlie Brown destroyed.
+Student Destructor: Cleanup done for student Eve Adams.
+Person Destructor: Eve Adams destroyed.
+Faculty Destructor: Cleanup done for faculty Dr. John Doe.
+Person Destructor: Dr. John Doe destroyed.
+Faculty Destructor: Cleanup done for faculty Prof. Jane Smith.
+Person Destructor: Prof. Jane Smith destroyed.
+Faculty Destructor: Cleanup done for faculty Dr. Robert Wilson.
+Person Destructor: Dr. Robert Wilson destroyed.
+Faculty Destructor: Cleanup done for faculty Dr. Sarah Connor.
+Person Destructor: Dr. Sarah Connor destroyed.
+
+Total persons finally: 0
